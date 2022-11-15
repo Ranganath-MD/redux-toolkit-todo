@@ -24,3 +24,95 @@ a {
     background: black;
   }
 }
+
+.login__container {
+  height: 80vh;
+  display: grid;
+  place-content: center;
+}
+
+.dashboard__container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.add__task input {
+  display: block;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.login input {
+  display: block;
+  margin-top: 20px;
+  padding: 5px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  background-color: cornflowerblue;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form span {
+  color: crimson;
+  font-size: 12px;
+}
+
+.header {
+  height: 60px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout__button {
+  background-color: blue;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.list {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+  height: 60vh;
+  overflow-y: scroll;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #303030;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.list__item button {
+  background-color: #b30303;
+}
+
+.list__item button:disabled {
+  background-color: gray;
+}
+
+button {
+  padding: 5px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
